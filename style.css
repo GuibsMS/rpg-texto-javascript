@@ -1,8 +1,27 @@
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url(/assets/images/map.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100vw;
     height: 100vh;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 30vw;
+    background-color: bisque;
+}
+
+button:hover {
+    background-color: rgb(253, 210, 144);
+    cursor: pointer;
 }
